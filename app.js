@@ -1,11 +1,13 @@
 // Your web app's Firebase configuration (ENTER YOUR FIREBASE DETAILS HERE)
 var firebaseConfig = {
-    apiKey: "AIzaSyD-Qj9nVq1a2TX_R8g70KU6yJ45DMyc8T0",
-    authDomain: "andre-chat-3ba51.firebaseapp.com",
-    projectId: "andre-chat-3ba51",
-    storageBucket: "andre-chat-3ba51.appspot.com",
-    messagingSenderId: "553571353677",
-    appId: "1:553571353677:web:232a374d8b7074b90f8804"
+    apiKey: "AIzaSyAcPGtaxHT6zJJPKnWOkAQmZ43SBVYdWHI",
+
+            authDomain: "andre-chat-51c4e.firebaseapp.com",
+
+            projectId: "andre-chat-51c4e",
+            storageBucket: "andre-chat-51c4e.appspot.com",
+            messagingSenderId: "314108702311",
+            appId: "1:314108702311:web:e9ec09a65121ba41ca2ec2"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
