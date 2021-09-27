@@ -2,11 +2,12 @@
 var firebaseConfig = {
     apiKey: "AIzaSyDy7v7xQhooj-PRIPwofhf1NliLq22j4z0",
     authDomain: "vudeo-b7cfc.firebaseapp.com",
-   projectId: "vudeo-b7cfc",
-  storageBucket: "vudeo-b7cfc.appspot.com",
-  messagingSenderId: "196924786214",
-  appId: "1:196924786214:web:b2565066b0489ec31e08e7",
-  measurementId: "G-CJLHHCTHGK"
+    databaseURL: "https://vudeo-b7cfc-default-rtdb.firebaseio.com",
+    projectId: "vudeo-b7cfc",
+    storageBucket: "vudeo-b7cfc.appspot.com",
+    messagingSenderId: "196924786214",
+    appId: "1:196924786214:web:b2565066b0489ec31e08e7",
+    measurementId: "G-CJLHHCTHGK"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);

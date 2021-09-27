@@ -10,7 +10,7 @@
 <body>
     
     <div class="wrapper-login">
-        <button class="login">Login With Google</button>
+        <button class="login">Login Google</button>
     </div>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -21,10 +21,9 @@
         // Your web app's Firebase configuration (ENTER YOUR FIREBASE DETAILS HERE
         var firebaseConfig = {
             apiKey: "AIzaSyDy7v7xQhooj-PRIPwofhf1NliLq22j4z0",
-
-    authDomain: "vudeo-b7cfc.firebaseapp.com",
-
-   projectId: "vudeo-b7cfc",
+  authDomain: "vudeo-b7cfc.firebaseapp.com",
+  databaseURL: "https://vudeo-b7cfc-default-rtdb.firebaseio.com",
+  projectId: "vudeo-b7cfc",
   storageBucket: "vudeo-b7cfc.appspot.com",
   messagingSenderId: "196924786214",
   appId: "1:196924786214:web:b2565066b0489ec31e08e7",
@@ -39,7 +38,7 @@
         firebase.auth().onAuthStateChanged(function(user) {
             if (user) {
                 // console.log(user);
-                window.location = 'https://crowdshop.github.io/';
+                window.location = 'index.html';
             }
         });        
 
@@ -47,7 +46,7 @@
             firebase.auth()
             .signInWithPopup(provider)
             .then((result) => {
-                window.location = 'https://crowdshop.github.io/'
+                window.location = 'index.htm'
             }).catch((error) => {
                 console.log(error);
             });
