@@ -10,7 +10,7 @@
 <body>
     
     <div class="wrapper-login">
-        <button class="login">Login Google</button>
+        <button class="login">Login With Google</button>
     </div>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -39,7 +39,7 @@
         firebase.auth().onAuthStateChanged(function(user) {
             if (user) {
                 // console.log(user);
-                window.location = 'index.html';
+                window.location = 'https://crowdshop.github.io/';
             }
         });        
 
@@ -47,7 +47,7 @@
             firebase.auth()
             .signInWithPopup(provider)
             .then((result) => {
-                window.location = 'index.html'
+                window.location = 'https://crowdshop.github.io/'
             }).catch((error) => {
                 console.log(error);
             });
