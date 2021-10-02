@@ -133,14 +133,14 @@ function formatAMPM() {
 
 var firebaseConfig = {
 
-    apiKey: "AIzaSyAcPGtaxHT6zJJPKnWOkAQmZ43SBVYdWHI",
-      authDomain: "andre-chat-51c4e.firebaseapp.com",
-      databaseURL: "https://andre-chat-51c4e-default-rtdb.firebaseio.com",
-      projectId: "andre-chat-51c4e",
-      storageBucket: "andre-chat-51c4e.appspot.com",
-      messagingSenderId: "314108702311",
-      appId: "1:314108702311:web:e9ec09a65121ba41ca2ec2",
-      measurementId: "G-B1TZRKN7WD"
+    apiKey: "AIzaSyBWLZ6D4RjdnwLxiSrQbIbJJ3VqbsDbth0",
+        authDomain: "blog-andre-c7dec.firebaseapp.com",
+        databaseURL: "https://blog-andre-c7dec-default-rtdb.firebaseio.com",
+        projectId: "blog-andre-c7dec",
+        storageBucket: "blog-andre-c7dec.appspot.com",
+        messagingSenderId: "145107204999",
+        appId: "1:145107204999:web:59c1a4e4c4438c39b2b122",
+        measurementId: "G-6KG5DR3SWH"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
