@@ -54,7 +54,7 @@ firebase.auth().onAuthStateChanged(function(user) {
             }
         })
         singout.addEventListener('click', (e) => {
-            let r = confirm('Sure to close?');
+            let r = confirm('Yakin Untuk Logout?');
             if(r){
                 firebase.auth().signOut();
             }
